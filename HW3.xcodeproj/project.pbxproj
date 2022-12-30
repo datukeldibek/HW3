@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0D22C6A8295EBC9E007D47F7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6A7295EBC9D007D47F7 /* main.swift */; };
+		0D22C6B0295EC4CB007D47F7 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6AF295EC4CB007D47F7 /* Teacher.swift */; };
+		0D22C6B3295EC4E5007D47F7 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6B2295EC4E5007D47F7 /* Student.swift */; };
+		0D22C6B6295EC510007D47F7 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6B5295EC510007D47F7 /* DataBase.swift */; };
+		0D22C6B9295ED43D007D47F7 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6B8295ED43D007D47F7 /* Patient.swift */; };
+		0D22C6BC295ED453007D47F7 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22C6BB295ED453007D47F7 /* Hospital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		0D22C6A4295EBC9D007D47F7 /* HW3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW3; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D22C6A7295EBC9D007D47F7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D22C6AF295EC4CB007D47F7 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		0D22C6B2295EC4E5007D47F7 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0D22C6B5295EC510007D47F7 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		0D22C6B8295ED43D007D47F7 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		0D22C6BB295ED453007D47F7 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				0D22C6A7295EBC9D007D47F7 /* main.swift */,
+				0D22C6AF295EC4CB007D47F7 /* Teacher.swift */,
+				0D22C6B2295EC4E5007D47F7 /* Student.swift */,
+				0D22C6B5295EC510007D47F7 /* DataBase.swift */,
+				0D22C6B8295ED43D007D47F7 /* Patient.swift */,
+				0D22C6BB295ED453007D47F7 /* Hospital.swift */,
 			);
 			path = HW3;
 			sourceTree = "<group>";
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D22C6B0295EC4CB007D47F7 /* Teacher.swift in Sources */,
+				0D22C6B3295EC4E5007D47F7 /* Student.swift in Sources */,
+				0D22C6B6295EC510007D47F7 /* DataBase.swift in Sources */,
 				0D22C6A8295EBC9E007D47F7 /* main.swift in Sources */,
+				0D22C6B9295ED43D007D47F7 /* Patient.swift in Sources */,
+				0D22C6BC295ED453007D47F7 /* Hospital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
